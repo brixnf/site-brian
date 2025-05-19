@@ -1,0 +1,81 @@
+/* Define a cor de fundo da página para azul claro */
+body {
+  background-color: #aed7eb;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container centraliza e dá espaçamento para o conteúdo */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Estilo do título principal, cor verde e alinhamento central */
+h1 {
+  color: #057550;
+  text-align: center;
+}
+
+/* Parágrafos com fonte maior e alinhados à esquerda e direita */
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Espaçamento maior entre os itens da lista */
+ul {
+  line-height: 2em;
+}
+
+/* Estilo da imagem do hobby: tamanho máximo e bordas arredondadas */
+.hobby-img {
+  width: 100%;
+  max-width: 400px;  /* Tamanho máximo */
+  height: auto;      /* Mantém a proporção da imagem */
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilo da tabela para largura total e sem espaços entre células */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Bordas e alinhamento do texto nas células da tabela */
+table td {
+  border: 1px solid #070707;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Tamanho e bordas arredondadas das imagens nas células da tabela */
+table img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+/* Estilo dos links: cor azul e sem sublinhado */
+a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+/* Quando o mouse passa por cima, muda a cor do link */
+a:hover {
+  color: #ff5500;
+}
+
+/* Estilo do botão: centralizado, com tamanho e cursor pointer */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
